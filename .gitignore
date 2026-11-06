@@ -1,0 +1,27 @@
+
+# Dependências
+node_modules/
+
+# Resultados temporários dos testes
+test-results/
+playwright-report/
+blob-report/
+
+# Arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
+
+# Configurações locais
+.vscode/
+
+# Arquivos de cache
+.cache/
